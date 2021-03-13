@@ -1,0 +1,12 @@
+package javaProgram;
+import java.util.Scanner;
+public class Question {
+    public static void main(String[] args) {
+        
+        // A program to calculate the sum of three numbers.
+        
+        int a = 5;
+        int b = 10;
+        int c = 12;
+        int sum = a+b+c;
+        System.out.println(sum);
