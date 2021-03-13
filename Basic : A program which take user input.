@@ -1,0 +1,20 @@
+package javaProgram;
+import java.util.Scanner;
+public class TakingUserInput {
+    public static void main(String[] args) {
+          
+          // A program in which we take user input and print the result.
+          
+          System.out.println("What is your age ?");
+          Scanner sc = new Scanner(System.in);
+          int a = sc.nextInt();
+          System.out.println("In Which year you born?");
+          Scanner s = new Scanner(System.in);
+          int b = sc.nextInt();
+          System.out.println("The Present year ");
+          int sum = a + b ;
+          System.out.println(sum);
+
+    }
+
+}
