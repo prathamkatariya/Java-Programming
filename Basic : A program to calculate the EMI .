@@ -6,7 +6,7 @@ public class EmiCalculator {
 
         public static void main(String []args)
         {
-            Scanner a = new Scanner(System.in);
+            Scanner a = new Scanner(System.in);                 // Taking user input.
 
             double principal, rate, time, emi;
 
@@ -23,9 +23,9 @@ public class EmiCalculator {
 
 
 
-            emi= (principal*rate*Math.pow(1+rate,time))/(Math.pow(1+rate,time)-1);
+            emi= (principal*rate*Math.pow(1+rate,time))/(Math.pow(1+rate,time)-1);      // Calculating EMI.
 
-            System.out.print("Monthly EMI is= "+emi+"\n");
+            System.out.print("Monthly EMI is= "+emi+"\n");                              // Output EMI.
 
         }
     }
